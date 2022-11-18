@@ -1,0 +1,10 @@
+E
+5 , id key num =
+4 E F T P
+E->FT
+F->key
+T->T,id
+T->id
+T->T,P
+T->P
+P->id=num

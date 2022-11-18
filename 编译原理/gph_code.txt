@@ -1,0 +1,225 @@
+digraph{
+s1[label="state 1
+S->¡¤E£¬#
+E->¡¤E+T£¬#,+,-
+E->¡¤E-T£¬#,+,-
+E->¡¤T£¬#,+,-
+T->¡¤T*F£¬#,+,-,*,/
+T->¡¤T/F£¬#,+,-,*,/
+T->¡¤F£¬#,+,-,*,/
+F->¡¤(E)£¬#,+,-,*,/
+F->¡¤num£¬#,+,-,*,/
+",shape=box];
+s2[label="state 2
+F->(¡¤E)£¬#,+,-,*,/
+E->¡¤E+T£¬),+,-
+E->¡¤E-T£¬),+,-
+E->¡¤T£¬),+,-
+T->¡¤T*F£¬),+,-,*,/
+T->¡¤T/F£¬),+,-,*,/
+T->¡¤F£¬),+,-,*,/
+F->¡¤(E)£¬),+,-,*,/
+F->¡¤num£¬),+,-,*,/
+",shape=box];
+s3[label="state 3
+F->num¡¤£¬#,+,-,*,/
+",shape=box];
+s4[label="state 4
+S->E¡¤£¬#
+E->E¡¤+T£¬#,+,-
+E->E¡¤-T£¬#,+,-
+",shape=box];
+s5[label="state 5
+E->T¡¤£¬#,+,-
+T->T¡¤*F£¬#,+,-,*,/
+T->T¡¤/F£¬#,+,-,*,/
+",shape=box];
+s6[label="state 6
+T->F¡¤£¬#,+,-,*,/
+",shape=box];
+s7[label="state 7
+F->(¡¤E)£¬),+,-,*,/
+E->¡¤E+T£¬),+,-
+E->¡¤E-T£¬),+,-
+E->¡¤T£¬),+,-
+T->¡¤T*F£¬),+,-,*,/
+T->¡¤T/F£¬),+,-,*,/
+T->¡¤F£¬),+,-,*,/
+F->¡¤(E)£¬),+,-,*,/
+F->¡¤num£¬),+,-,*,/
+",shape=box];
+s8[label="state 8
+F->num¡¤£¬),+,-,*,/
+",shape=box];
+s9[label="state 9
+F->(E¡¤)£¬#,+,-,*,/
+E->E¡¤+T£¬),+,-
+E->E¡¤-T£¬),+,-
+",shape=box];
+s10[label="state 10
+E->T¡¤£¬),+,-
+T->T¡¤*F£¬),+,-,*,/
+T->T¡¤/F£¬),+,-,*,/
+",shape=box];
+s11[label="state 11
+T->F¡¤£¬),+,-,*,/
+",shape=box];
+s12[label="state 12
+E->E+¡¤T£¬#,+,-
+T->¡¤T*F£¬#,+,-,*,/
+T->¡¤T/F£¬#,+,-,*,/
+T->¡¤F£¬#,+,-,*,/
+F->¡¤(E)£¬#,+,-,*,/
+F->¡¤num£¬#,+,-,*,/
+",shape=box];
+s13[label="state 13
+E->E-¡¤T£¬#,+,-
+T->¡¤T*F£¬#,+,-,*,/
+T->¡¤T/F£¬#,+,-,*,/
+T->¡¤F£¬#,+,-,*,/
+F->¡¤(E)£¬#,+,-,*,/
+F->¡¤num£¬#,+,-,*,/
+",shape=box];
+s14[label="state 14
+T->T*¡¤F£¬#,+,-,*,/
+F->¡¤(E)£¬#,+,-,*,/
+F->¡¤num£¬#,+,-,*,/
+",shape=box];
+s15[label="state 15
+T->T/¡¤F£¬#,+,-,*,/
+F->¡¤(E)£¬#,+,-,*,/
+F->¡¤num£¬#,+,-,*,/
+",shape=box];
+s16[label="state 16
+F->(E¡¤)£¬),+,-,*,/
+E->E¡¤+T£¬),+,-
+E->E¡¤-T£¬),+,-
+",shape=box];
+s17[label="state 17
+E->E+¡¤T£¬),+,-
+T->¡¤T*F£¬),+,-,*,/
+T->¡¤T/F£¬),+,-,*,/
+T->¡¤F£¬),+,-,*,/
+F->¡¤(E)£¬),+,-,*,/
+F->¡¤num£¬),+,-,*,/
+",shape=box];
+s18[label="state 18
+E->E-¡¤T£¬),+,-
+T->¡¤T*F£¬),+,-,*,/
+T->¡¤T/F£¬),+,-,*,/
+T->¡¤F£¬),+,-,*,/
+F->¡¤(E)£¬),+,-,*,/
+F->¡¤num£¬),+,-,*,/
+",shape=box];
+s19[label="state 19
+F->(E)¡¤£¬#,+,-,*,/
+",shape=box];
+s20[label="state 20
+T->T*¡¤F£¬),+,-,*,/
+F->¡¤(E)£¬),+,-,*,/
+F->¡¤num£¬),+,-,*,/
+",shape=box];
+s21[label="state 21
+T->T/¡¤F£¬),+,-,*,/
+F->¡¤(E)£¬),+,-,*,/
+F->¡¤num£¬),+,-,*,/
+",shape=box];
+s22[label="state 22
+E->E+T¡¤£¬#,+,-
+T->T¡¤*F£¬#,+,-,*,/
+T->T¡¤/F£¬#,+,-,*,/
+",shape=box];
+s23[label="state 23
+E->E-T¡¤£¬#,+,-
+T->T¡¤*F£¬#,+,-,*,/
+T->T¡¤/F£¬#,+,-,*,/
+",shape=box];
+s24[label="state 24
+T->T*F¡¤£¬#,+,-,*,/
+",shape=box];
+s25[label="state 25
+T->T/F¡¤£¬#,+,-,*,/
+",shape=box];
+s26[label="state 26
+F->(E)¡¤£¬),+,-,*,/
+",shape=box];
+s27[label="state 27
+E->E+T¡¤£¬),+,-
+T->T¡¤*F£¬),+,-,*,/
+T->T¡¤/F£¬),+,-,*,/
+",shape=box];
+s28[label="state 28
+E->E-T¡¤£¬),+,-
+T->T¡¤*F£¬),+,-,*,/
+T->T¡¤/F£¬),+,-,*,/
+",shape=box];
+s29[label="state 29
+T->T*F¡¤£¬),+,-,*,/
+",shape=box];
+s30[label="state 30
+T->T/F¡¤£¬),+,-,*,/
+",shape=box];
+s1->s2[label="("];
+s1->s3[label="num"];
+s1->s4[label="E"];
+s1->s5[label="T"];
+s1->s6[label="F"];
+s2->s7[label="("];
+s2->s8[label="num"];
+s2->s9[label="E"];
+s2->s10[label="T"];
+s2->s11[label="F"];
+s4->s12[label="+"];
+s4->s13[label="-"];
+s5->s14[label="*"];
+s5->s15[label="/"];
+s7->s7[label="("];
+s7->s8[label="num"];
+s7->s16[label="E"];
+s7->s10[label="T"];
+s7->s11[label="F"];
+s9->s17[label="+"];
+s9->s18[label="-"];
+s9->s19[label=")"];
+s10->s20[label="*"];
+s10->s21[label="/"];
+s12->s2[label="("];
+s12->s3[label="num"];
+s12->s22[label="T"];
+s12->s6[label="F"];
+s13->s2[label="("];
+s13->s3[label="num"];
+s13->s23[label="T"];
+s13->s6[label="F"];
+s14->s2[label="("];
+s14->s3[label="num"];
+s14->s24[label="F"];
+s15->s2[label="("];
+s15->s3[label="num"];
+s15->s25[label="F"];
+s16->s17[label="+"];
+s16->s18[label="-"];
+s16->s26[label=")"];
+s17->s7[label="("];
+s17->s8[label="num"];
+s17->s27[label="T"];
+s17->s11[label="F"];
+s18->s7[label="("];
+s18->s8[label="num"];
+s18->s28[label="T"];
+s18->s11[label="F"];
+s20->s7[label="("];
+s20->s8[label="num"];
+s20->s29[label="F"];
+s21->s7[label="("];
+s21->s8[label="num"];
+s21->s30[label="F"];
+s22->s14[label="*"];
+s22->s15[label="/"];
+s23->s14[label="*"];
+s23->s15[label="/"];
+s27->s20[label="*"];
+s27->s21[label="/"];
+s28->s20[label="*"];
+s28->s21[label="/"];
+}
